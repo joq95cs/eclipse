@@ -1,0 +1,13 @@
+INDEX VERSION 1.4+C:\Users\joqle\Documents\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4253242634.index
+1755514835.index
+1767143401.index
+49314728.index
+2197288732.index
+661600371.index
+3654390819.index
+3530619550.index
+4126197642.index
+229666996.index
+2603755811.index
+1248263569.index

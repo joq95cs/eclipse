@@ -1,0 +1,25 @@
+import javax.swing.JOptionPane;
+
+public class CondicionTernaria {
+
+	public static void main(String[] args) {
+		
+		int edad = Integer.parseInt(JOptionPane.showInputDialog("Ingresa tu edad"));
+		
+		boolean nigno = edad < 12 ? true : false;
+		
+		boolean adolescente = edad >= 12 && edad < 18 ? true : false;
+		
+		boolean jovenAdulto = edad >= 18 && edad < 30 ? true : false;
+		
+		boolean adulto = edad >= 30 && edad < 50 ? true : false;
+		
+		boolean mayor = edad >= 50 && edad < 70 ? true : false;
+		
+		boolean anciano = edad >= 70 ? true : false;
+		
+		System.out.println("Es ni�o: " + ni�o + "\nEs adolescente: " + adolescente + "\nEs j�ven adulto: " + jovenAdulto + "\nEs Adulto: " + adulto + "\nEs Mayor: " + mayor + "\nEs Anciano: " + anciano);
+
+	}
+
+}

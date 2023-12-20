@@ -1,0 +1,133 @@
+package graficos;
+
+import javax.swing.*;
+
+import java.awt.*;
+
+import java.awt.event.*;
+
+public class PruebaEventosFoco4 {
+
+	public static void main(String[] args) {
+		
+		PruebaEventosFoco4 marcos = new PruebaEventosFoco4();
+		
+		marcos.iniciarMarcos();
+		
+		marcos.iniciarLaminas();
+		
+		marcos.a�adirLaminas();
+		
+		marcos.fijarOyentes();
+
+	}
+	
+	public void iniciarMarcos() {
+		
+		marco1 = new JFrame();
+		
+		marco2 = new JFrame();
+		
+		Dimension dimensiones = Toolkit.getDefaultToolkit().getScreenSize();
+		
+		int ancho = dimensiones.width, alto = dimensiones.height;
+		
+		marco1.setBounds(ancho/4, 3*alto/8, ancho/4, alto/4);
+		
+		marco2.setBounds(2*ancho/4, 3*alto/8, ancho/4, alto/4);
+		
+		marco1.setTitle("MARCO NARANJA");
+		
+		marco2.setTitle("MARCO NARANJA");
+		
+		marco1.setResizable(false);
+		
+		marco2.setResizable(false);
+		
+		marco1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		marco2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		marco1.setVisible(true);
+		
+		marco2.setVisible(true);
+		
+	}
+	
+	public void iniciarLaminas() {
+		
+		lamina1 = new JPanel();
+		
+		lamina2 = new JPanel();
+		
+		lamina1.setBackground(Color.ORANGE);
+		
+		lamina2.setBackground(Color.ORANGE);
+		
+	}
+	
+	public void agnadirLaminas() {
+		
+		marco1.add(lamina1);
+		
+		marco2.add(lamina2);
+		
+	}
+	
+	public void fijarOyentes() {
+		
+		marco1.addWindowFocusListener(new OyenteEventosFoco4());
+		
+		marco2.addWindowFocusListener(new OyenteEventosFoco4());
+		
+	}
+	
+	private class OyenteEventosFoco4 implements WindowFocusListener {
+		
+		public void windowGainedFocus(WindowEvent e) {
+			
+			if(e.getSource() == marco1) {
+				
+				lamina1.setBackground(Color.GREEN);
+				
+				marco1.setTitle("MARCO VERDE");
+				
+			}
+			
+			else {
+				
+				lamina2.setBackground(Color.GREEN);
+				
+				marco2.setTitle("MARCO VERDE");
+				
+			}
+			
+		}
+		
+		public void windowLostFocus(WindowEvent e) {
+			
+			if(e.getSource() == marco1) {
+				
+				lamina1.setBackground(Color.ORANGE);
+				
+				marco1.setTitle("MARCO NARANJA");
+				
+			}
+			
+			else {
+				
+				lamina2.setBackground(Color.ORANGE);
+				
+				marco2.setTitle("MARCO NARANJA");
+				
+			}
+			
+		}
+		
+	}
+
+	private JFrame marco1, marco2;
+	
+	private JPanel lamina1, lamina2;
+
+}

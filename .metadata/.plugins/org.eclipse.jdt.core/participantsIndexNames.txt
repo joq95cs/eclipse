@@ -1,0 +1,17 @@
+INDEX VERSION 1.134
+C:\Users\joqle\Documents\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3456636865.index
+\SpringMVC1\src\main\java
+C:\Users\joqle\Documents\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1758808948.index
+\SpringCRUD\src\main\java
+C:\Users\joqle\Documents\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2080999272.index
+\SpringSeguridad\src\main\java
+C:\Users\joqle\Documents\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3295678741.index
+\SpringCRUD\src\main\java
+C:\Users\joqle\Documents\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2603755811.index
+\SpringSeguridad2\src\main\java
+C:\Users\joqle\Documents\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3974233793.index
+\Servlets\src
+C:\Users\joqle\Documents\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\13294062.index
+\Web_Productos\src
+C:\Users\joqle\Documents\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\105383260.index
+\JSP\src

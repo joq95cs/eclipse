@@ -1,0 +1,56 @@
+package com.joqsan.MavenJDBC;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class App {
+	
+    public static void main( String[] args ) {
+    	
+    	try {
+    		
+    		Connection cn = new Connect("practica_blog", "root", "").getConnection();
+    		
+    		if(cn.)
+    		
+    	} catch (Exception e) {
+    		
+    		e.printStackTrace();
+    	}
+    }
+}
+
+class Connect {
+	
+	public Connect(String db_name, String db_user, String db_pass) throws SQLException {
+		
+		this.db_name = db_name;
+		this.db_user = db_user;
+		this.db_pass = db_pass;
+		
+		url = "jdbc:mysql://localhost:3306/mydatabase" + db_name;
+		
+		cn = DriverManager.getConnection(url, db_user, db_name);
+		
+		
+		
+	}
+	
+	public Connection getConnection() throws SQLException {
+		
+		return cn;
+	}
+	
+	public Statement getStatement() {
+		
+		
+	}
+	
+	private String db_name;
+	private String db_user;
+	private String db_pass;
+	private Connection cn;
+	
+	private String url;
+}

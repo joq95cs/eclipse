@@ -1,0 +1,5 @@
+package com.joqsan.SpringSeguridad.controller;
+
+public class ControladorLogin {
+
+}
