@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\joqle\Documents\eclipse-workspace\JavaMQTT"/>
 			<item value="C:\Users\joqle\Documents\eclipse-workspace\MavenJDBC"/>
 			<item value="C:\Users\joqle\Documents\eclipse-workspace\SpringSeguridad"/>
 			<item value="C:\Users\joqle\Documents\eclipse-workspace\MavenWeb"/>
@@ -31,13 +32,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="hola.Hola"/>
+			<item value="com.joqsan.MQTT_Led"/>
 		</list>
 		<list key="groupId">
-			<item value="hola"/>
+			<item value="com.joqsan"/>
 		</list>
 		<list key="artifactId">
-			<item value="Hola"/>
+			<item value="MQTT_Led"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -48,6 +49,7 @@
 			<item value="[name]"/>
 		</list>
 		<list key="version">
+			<item value="1.0"/>
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
@@ -73,5 +75,11 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="531"/>
+		<item key="x" value="678"/>
+		<item key="y" value="113"/>
 	</section>
 </section>
